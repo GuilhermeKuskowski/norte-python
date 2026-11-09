@@ -1,0 +1,59 @@
+{
+  "_sobre": "Casos FICTÍCIOS das personas do Norte (nenhum dado pessoal real). Os relatos têm erros de digitação de propósito, como chegam de quem digita com pressa ou de uma transcrição de áudio.",
+  "marcia": {
+    "persona": "Márcia, 47 – auxiliar de limpeza demitida",
+    "relato": "fui demitida sem justa causa depois de 9 anos, assinei a recisão e acho que o fgts nao foi depozitado em varios meses",
+    "origem": "P1",
+    "acessivel": false,
+    "horas_disponiveis": 4,
+    "datas": {"data_demissao": "2026-10-27"},
+    "valores": {"salario": 1850.00, "meses_sem_fgts": 7}
+  },
+  "jose": {
+    "persona": "José, 67 – BPC negado",
+    "relato": "meu benefisio do inss foi negado, a carta fala em criterio de renda e eu nao entendi. sou idoso e nao tenho aposentadoria",
+    "origem": "P12",
+    "acessivel": true,
+    "perfil_prioritario": ["idoso"],
+    "horas_disponiveis": 3,
+    "datas": {"data_negativa_inss": "2026-10-26"},
+    "valores": {"valor_causa": 19452.00}
+  },
+  "juliana": {
+    "persona": "Juliana, 29 – nome negativado",
+    "relato": "meu nome foi negativado no serasa por uma divida de um cartao que eu nunca pedi, e ainda paguei uma cobransa indevida",
+    "origem": "P6",
+    "acessivel": false,
+    "horas_disponiveis": 2,
+    "datas": {},
+    "valores": {"valor_pago_indevido": 380.00}
+  },
+  "rafael": {
+    "persona": "Rafael, 34 – caução e multa",
+    "relato": "o dono do apartamento nao devolveu a causão do aluguel e no mesmo mes recebi uma multa de transito que acho injusta",
+    "origem": "P3",
+    "acessivel": false,
+    "horas_disponiveis": 3,
+    "datas": {"data_notificacao_multa": "2026-10-28"},
+    "valores": {"valor_causa": 4500.00}
+  },
+  "ana_paula": {
+    "persona": "Ana Paula, 31 – pensão e creche",
+    "relato": "o pai do meu filho parou de pagar a pensao alimenticia e eu nao consegui vaga na creche perto de casa",
+    "origem": "P8",
+    "acessivel": false,
+    "horas_disponiveis": 3,
+    "datas": {},
+    "valores": {}
+  },
+  "carlos": {
+    "persona": "Carlos, 45 – pessoa cega, plano de saúde",
+    "relato": "sou sego e o plano de saude negou meu atendimento de urgencia dizendo que eu estava em carencia",
+    "origem": "P12",
+    "acessivel": true,
+    "perfil_prioritario": ["pcd"],
+    "horas_disponiveis": 2,
+    "datas": {},
+    "valores": {}
+  }
+}

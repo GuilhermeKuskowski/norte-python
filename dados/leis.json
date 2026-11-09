@@ -1,0 +1,123 @@
+{
+  "_sobre": "Normas citadas pelo Norte. Cabeçalhos (vigência e link oficial) conferidos no repositório aberto ctresb/leis em 09/11/2026. CLT e Decreto 3.048/1999 apontam para o Planalto. Salário mínimo de 2026: R$ 1.621,00.",
+  "CF": {
+    "nome": "Constituição Federal de 1988",
+    "revogada": false,
+    "fonte": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+  },
+  "CLT": {
+    "nome": "CLT (Decreto-Lei 5.452/1943)",
+    "revogada": false,
+    "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"
+  },
+  "L8036": {
+    "nome": "Lei 8.036/1990 (FGTS)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1990-05-11;8036"
+  },
+  "L7998": {
+    "nome": "Lei 7.998/1990 (seguro-desemprego)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1990-01-11;7998"
+  },
+  "L8213": {
+    "nome": "Lei 8.213/1991 (benefícios do INSS)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1991-07-24;8213"
+  },
+  "D3048": {
+    "nome": "Decreto 3.048/1999 (Regulamento da Previdência)",
+    "revogada": false,
+    "fonte": "https://www.planalto.gov.br/ccivil_03/decreto/d3048.htm"
+  },
+  "L8742": {
+    "nome": "Lei 8.742/1993 (LOAS – BPC)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1993-12-07;8742"
+  },
+  "CDC": {
+    "nome": "Código de Defesa do Consumidor (Lei 8.078/1990)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1990-09-11;8078"
+  },
+  "L8245": {
+    "nome": "Lei do Inquilinato (Lei 8.245/1991)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1991-10-18;8245"
+  },
+  "L5478": {
+    "nome": "Lei de Alimentos (Lei 5.478/1968)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1968-07-25;5478"
+  },
+  "LDB": {
+    "nome": "LDB (Lei 9.394/1996)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1996-12-20;9394"
+  },
+  "ECA": {
+    "nome": "ECA (Lei 8.069/1990)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1990-07-13;8069"
+  },
+  "L11340": {
+    "nome": "Lei Maria da Penha (Lei 11.340/2006)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2006-08-07;11340"
+  },
+  "L8080": {
+    "nome": "Lei do SUS (Lei 8.080/1990)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1990-09-19;8080"
+  },
+  "L9656": {
+    "nome": "Lei dos Planos de Saúde (Lei 9.656/1998)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1998-06-03;9656"
+  },
+  "L10741": {
+    "nome": "Estatuto da Pessoa Idosa (Lei 10.741/2003)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2003-10-01;10741"
+  },
+  "L13146": {
+    "nome": "Lei Brasileira de Inclusão (Lei 13.146/2015)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2015-07-06;13146"
+  },
+  "CTB": {
+    "nome": "Código de Trânsito Brasileiro (Lei 9.503/1997)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1997-09-23;9503"
+  },
+  "L13460": {
+    "nome": "Lei 13.460/2017 (usuário de serviço público)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2017-06-26;13460"
+  },
+  "L12527": {
+    "nome": "Lei de Acesso à Informação (Lei 12.527/2011)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2011-11-18;12527"
+  },
+  "CPC": {
+    "nome": "Código de Processo Civil (Lei 13.105/2015)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2015-03-16;13105"
+  },
+  "L9099": {
+    "nome": "Lei dos Juizados Especiais (Lei 9.099/1995)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:1995-09-26;9099"
+  },
+  "L10259": {
+    "nome": "Lei dos Juizados Especiais Federais (Lei 10.259/2001)",
+    "revogada": false,
+    "fonte": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2001-07-12;10259"
+  },
+  "CODEFAT467": {
+    "nome": "Resolução CODEFAT 467/2005 (prazo validado pelo STJ, Tema 1136)",
+    "revogada": false,
+    "fonte": "https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego"
+  }
+}

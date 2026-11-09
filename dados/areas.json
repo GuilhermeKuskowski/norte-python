@@ -1,0 +1,105 @@
+{
+  "_sobre": "As 10 áreas do Norte. 'palavras' alimenta a triagem (peso 1 a 3); 'orgaos' são os tipos de atendimento gratuito; 'acoes' são as regras de orientação escritas pela curadoria (duração em minutos, impacto de 1 a 10, prazo legal quando existe). Valores e tempos são estimativas para o protótipo.",
+  "trabalho": {
+    "nome": "Trabalho e emprego",
+    "palavras": {"demitido": 3, "demitida": 3, "demissao": 3, "rescisao": 3, "fgts": 3, "carteira": 2, "patrao": 2, "empresa": 1, "salario": 2, "ferias": 2, "decimo": 2, "terceiro": 1, "aviso": 1, "justa": 2, "causa": 1, "desemprego": 3, "trabalhei": 2, "trabalho": 2, "emprego": 2, "registrada": 2, "registrado": 2, "horas": 1, "extras": 2, "domestica": 2, "sindicato": 2, "mandaram": 1, "embora": 1},
+    "orgaos": ["sindicato", "defensoria", "nucleo_pratica_juridica", "vara_trabalho"],
+    "acoes": [
+      {"id": "T1", "texto": "Pedir o extrato do FGTS (app FGTS ou agência da Caixa) para ver quais meses não foram depositados", "lei": "L8036", "artigo": "art. 15", "duracao_min": 30, "impacto": 8, "prazo": null, "documentos": ["Documento com foto", "Carteira de trabalho"]},
+      {"id": "T2", "texto": "Dar entrada no seguro-desemprego (entre o 7º e o 120º dia após a demissão)", "lei": "CODEFAT467", "artigo": "art. 14", "duracao_min": 60, "impacto": 9, "prazo": {"quantidade": 120, "unidade": "dias", "a_partir_de": "data_demissao"}, "documentos": ["Termo de rescisão (TRCT)", "Carteira de trabalho", "Documento com foto"]},
+      {"id": "T3", "texto": "Levar a rescisão ao sindicato ou ao atendimento gratuito para conferir FGTS, multa de 40%, férias e 13º", "lei": "L8036", "artigo": "art. 18, § 1º", "duracao_min": 120, "impacto": 7, "prazo": null, "documentos": ["Termo de rescisão (TRCT)", "Holerites dos últimos meses", "Extrato do FGTS"]},
+      {"id": "T4", "texto": "Entrar com reclamação trabalhista (prazo de 2 anos após o fim do contrato; o empregado pode reclamar pessoalmente)", "lei": "CF", "artigo": "art. 7º, XXIX", "duracao_min": 180, "impacto": 9, "prazo": {"quantidade": 2, "unidade": "anos", "a_partir_de": "data_demissao"}, "documentos": ["Carteira de trabalho", "Termo de rescisão (TRCT)", "Extrato do FGTS", "Provas (mensagens, holerites)"]}
+    ]
+  },
+  "inss": {
+    "nome": "INSS e benefícios sociais",
+    "palavras": {"inss": 3, "beneficio": 3, "aposentadoria": 3, "aposentar": 2, "bpc": 3, "loas": 3, "negado": 2, "negaram": 2, "pericia": 2, "auxilio": 2, "doenca": 1, "previdencia": 3, "pensao": 1, "morte": 1, "maternidade": 2, "bolsa": 2, "familia": 1, "cadunico": 3, "carta": 1, "renda": 1, "idoso": 1},
+    "orgaos": ["cras", "defensoria_uniao", "agencia_inss", "juizado_federal"],
+    "acoes": [
+      {"id": "I1", "texto": "Ler a carta de indeferimento e anotar o motivo e a data (o Norte explica cada termo)", "lei": "L8742", "artigo": "art. 20", "duracao_min": 30, "impacto": 6, "prazo": null, "documentos": ["Carta de indeferimento do INSS"]},
+      {"id": "I2", "texto": "Atualizar o CadÚnico no CRAS (exigido para o BPC)", "lei": "L8742", "artigo": "art. 20", "duracao_min": 90, "impacto": 8, "prazo": null, "documentos": ["Documento com foto e CPF de todos da casa", "Comprovante de residência", "Comprovantes de renda"]},
+      {"id": "I3", "texto": "Apresentar recurso ao INSS pelo Meu INSS ou telefone 135 (prazo de 30 dias da ciência da decisão)", "lei": "D3048", "artigo": "art. 305, § 1º", "duracao_min": 60, "impacto": 10, "prazo": {"quantidade": 30, "unidade": "dias", "a_partir_de": "data_negativa_inss"}, "documentos": ["Carta de indeferimento do INSS", "Número do benefício (NB)", "Laudos ou comprovantes de renda"]},
+      {"id": "I4", "texto": "Procurar a Defensoria Pública da União para avaliar ação no Juizado Especial Federal", "lei": "L10259", "artigo": "arts. 3º e 10", "duracao_min": 120, "impacto": 7, "prazo": null, "documentos": ["Carta de indeferimento do INSS", "Documentos pessoais", "Comprovante de residência"]}
+    ]
+  },
+  "consumo": {
+    "nome": "Consumo e dívidas",
+    "palavras": {"negativado": 3, "negativada": 3, "negativaram": 3, "serasa": 3, "spc": 3, "divida": 3, "cobranca": 3, "cobrando": 2, "indevida": 2, "cartao": 2, "compra": 2, "comprei": 2, "produto": 2, "defeito": 2, "loja": 2, "internet": 1, "banco": 2, "emprestimo": 2, "juros": 2, "boleto": 2, "nome": 1, "sujo": 2, "procon": 3, "consumidor": 3, "golpe": 2, "devolver": 1, "fatura": 2},
+    "orgaos": ["procon", "juizado_civel", "nucleo_pratica_juridica"],
+    "acoes": [
+      {"id": "C1", "texto": "Guardar provas: prints, protocolos e consulta do nome no Serasa/SPC (o consumidor tem direito de ver o cadastro)", "lei": "CDC", "artigo": "art. 43", "duracao_min": 30, "impacto": 7, "prazo": null, "documentos": ["Prints e protocolos", "Consulta do CPF no Serasa/SPC"]},
+      {"id": "C2", "texto": "Registrar reclamação no Procon ou no consumidor.gov.br pedindo a retirada do nome e a devolução", "lei": "CDC", "artigo": "art. 42, parágrafo único", "duracao_min": 60, "impacto": 9, "prazo": null, "documentos": ["Documento com foto", "Provas da cobrança", "Comprovante de pagamento, se pagou"]},
+      {"id": "C3", "texto": "Desistir da compra feita fora da loja (internet/telefone) em até 7 dias do recebimento", "lei": "CDC", "artigo": "art. 49", "duracao_min": 30, "impacto": 6, "prazo": {"quantidade": 7, "unidade": "dias", "a_partir_de": "data_compra"}, "documentos": ["Nota fiscal", "Número do pedido"]},
+      {"id": "C4", "texto": "Se não resolver, entrar no Juizado Especial Cível pedindo a devolução em dobro do que pagou a mais", "lei": "L9099", "artigo": "art. 9º", "duracao_min": 150, "impacto": 8, "prazo": null, "documentos": ["Documento com foto", "Comprovante de residência", "Provas e protocolo do Procon"]}
+    ]
+  },
+  "moradia": {
+    "nome": "Moradia e aluguel",
+    "palavras": {"aluguel": 3, "alugado": 2, "inquilino": 3, "inquilina": 3, "locador": 3, "proprietario": 2, "dono": 1, "imovel": 2, "apartamento": 2, "casa": 1, "caucao": 3, "despejo": 3, "despejar": 3, "reajuste": 2, "contrato": 1, "condominio": 2, "mudei": 1, "deposito": 1},
+    "orgaos": ["defensoria", "juizado_civel", "nucleo_pratica_juridica"],
+    "acoes": [
+      {"id": "M1", "texto": "Mandar mensagem por escrito ao dono pedindo a caução de volta com o rendimento da poupança", "lei": "L8245", "artigo": "art. 38, § 2º", "duracao_min": 30, "impacto": 7, "prazo": null, "documentos": ["Contrato de aluguel", "Comprovante do depósito da caução"]},
+      {"id": "M2", "texto": "Reunir provas da entrega do imóvel (vistoria, fotos, recibo das chaves)", "lei": "L8245", "artigo": "art. 23, III", "duracao_min": 60, "impacto": 6, "prazo": null, "documentos": ["Laudo de vistoria", "Fotos do imóvel", "Recibo de entrega das chaves"]},
+      {"id": "M3", "texto": "Entrar no Juizado Especial Cível para cobrar a caução (até 20 salários mínimos, sem advogado)", "lei": "L9099", "artigo": "art. 9º", "duracao_min": 150, "impacto": 9, "prazo": null, "documentos": ["Contrato de aluguel", "Comprovante da caução", "Mensagens com o dono", "Documento com foto"]}
+    ]
+  },
+  "familia": {
+    "nome": "Família, crianças e escola",
+    "palavras": {"pensao": 2, "alimenticia": 3, "alimentos": 2, "filho": 2, "filha": 2, "filhos": 2, "crianca": 2, "guarda": 2, "divorcio": 3, "separacao": 2, "pai": 1, "paternidade": 3, "creche": 3, "escola": 2, "vaga": 2, "matricula": 2},
+    "orgaos": ["defensoria", "conselho_tutelar", "cras"],
+    "acoes": [
+      {"id": "F1", "texto": "Pedir a ação de alimentos na Defensoria (basta provar o parentesco; pode pedir pessoalmente)", "lei": "L5478", "artigo": "art. 2º", "duracao_min": 120, "impacto": 9, "prazo": null, "documentos": ["Certidão de nascimento da criança", "Documento com foto", "Comprovantes de gastos da criança"]},
+      {"id": "F2", "texto": "Pedir vaga na creche por escrito na Secretaria de Educação e guardar o protocolo", "lei": "LDB", "artigo": "art. 4º, II", "duracao_min": 60, "impacto": 8, "prazo": null, "documentos": ["Certidão de nascimento da criança", "Comprovante de residência", "Carteira de vacinação"]},
+      {"id": "F3", "texto": "Sem resposta da vaga, acionar o Conselho Tutelar", "lei": "ECA", "artigo": "arts. 54, IV e 136", "duracao_min": 60, "impacto": 6, "prazo": null, "documentos": ["Protocolo do pedido de vaga"]}
+    ]
+  },
+  "violencia": {
+    "nome": "Violência e discriminação",
+    "modo_discreto": true,
+    "palavras": {"violencia": 3, "agressao": 3, "agrediu": 3, "bateu": 3, "apanhei": 3, "ameaca": 3, "ameacou": 3, "marido": 1, "companheiro": 1, "namorado": 1, "medo": 2, "racismo": 3, "discriminacao": 3, "preconceito": 3, "assedio": 3, "protetiva": 3},
+    "orgaos": ["delegacia_mulher", "defensoria", "cras"],
+    "acoes": [
+      {"id": "V1", "texto": "Em perigo agora: ligar 190. Para orientação sigilosa: Ligue 180", "lei": "L11340", "artigo": "art. 22", "duracao_min": 30, "impacto": 10, "prazo": null, "documentos": []},
+      {"id": "V2", "texto": "Pedir medida protetiva na delegacia (o pedido vai ao juiz em até 48 horas)", "lei": "L11340", "artigo": "art. 12, III e art. 19", "duracao_min": 120, "impacto": 10, "prazo": null, "documentos": ["Documento com foto", "Provas (mensagens, fotos, testemunhas)"]}
+    ]
+  },
+  "saude": {
+    "nome": "Saúde",
+    "palavras": {"plano": 1, "saude": 3, "convenio": 2, "carencia": 3, "urgencia": 3, "emergencia": 3, "hospital": 2, "cirurgia": 2, "remedio": 2, "medicamento": 2, "sus": 3, "ubs": 3, "posto": 1, "consulta": 2, "exame": 2, "atendimento": 1, "negou": 1},
+    "orgaos": ["ubs_ouvidoria", "defensoria"],
+    "acoes": [
+      {"id": "S1", "texto": "Pedir ao plano a negativa por escrito, com o motivo (carência para urgência é de no máximo 24 horas)", "lei": "L9656", "artigo": "art. 12, V, c", "duracao_min": 30, "impacto": 8, "prazo": null, "documentos": ["Carteirinha do plano", "Número do protocolo"]},
+      {"id": "S2", "texto": "Registrar reclamação na ANS pelo site (cobertura de urgência e emergência é obrigatória)", "lei": "L9656", "artigo": "art. 35-C", "duracao_min": 45, "impacto": 9, "prazo": null, "documentos": ["Negativa por escrito", "Relatório médico"]},
+      {"id": "S3", "texto": "No SUS, registrar a falta de atendimento ou de remédio na ouvidoria da unidade", "lei": "L8080", "artigo": "art. 7º", "duracao_min": 60, "impacto": 6, "prazo": null, "documentos": ["Cartão do SUS", "Receita ou pedido médico"]}
+    ]
+  },
+  "idosos_pcd": {
+    "nome": "Idosos e pessoas com deficiência",
+    "palavras": {"idoso": 2, "idosa": 2, "deficiencia": 3, "deficiente": 3, "cego": 3, "cega": 3, "surdo": 3, "cadeirante": 3, "prioridade": 2, "prioritario": 2, "gratuidade": 2, "acessibilidade": 3, "rampa": 2, "acompanhante": 1},
+    "orgaos": ["cras", "defensoria", "ministerio_publico"],
+    "acoes": [
+      {"id": "P1", "so_para": "pcd", "texto": "Exigir atendimento prioritário em qualquer órgão, banco ou serviço", "lei": "L13146", "artigo": "art. 9º", "duracao_min": 30, "impacto": 6, "prazo": null, "documentos": ["Documento com foto", "Laudo ou carteira da pessoa com deficiência"]},
+      {"id": "P2", "so_para": "idoso", "texto": "Exigir atendimento preferencial imediato em órgãos públicos e serviços", "lei": "L10741", "artigo": "art. 3º, § 1º, I", "duracao_min": 30, "impacto": 6, "prazo": null, "documentos": ["Documento com foto"]},
+      {"id": "P3", "so_para": "idoso", "texto": "Pedir a gratuidade no transporte coletivo urbano (65 anos ou mais)", "lei": "L10741", "artigo": "art. 39", "duracao_min": 60, "impacto": 5, "prazo": null, "documentos": ["Documento com foto"]}
+    ]
+  },
+  "transito": {
+    "nome": "Trânsito",
+    "palavras": {"multa": 3, "multado": 3, "multada": 3, "transito": 3, "detran": 3, "cnh": 3, "habilitacao": 3, "radar": 3, "pontos": 1, "infracao": 3, "carro": 2, "moto": 2, "veiculo": 2, "jari": 3, "guinchado": 3},
+    "orgaos": ["jari", "nucleo_pratica_juridica"],
+    "acoes": [
+      {"id": "R1", "texto": "Apresentar defesa prévia da autuação (prazo de pelo menos 30 dias, a data está na notificação)", "lei": "CTB", "artigo": "art. 281-A", "duracao_min": 60, "impacto": 8, "prazo": {"quantidade": 30, "unidade": "dias", "a_partir_de": "data_notificacao_multa"}, "documentos": ["Notificação de autuação", "CNH e documento do veículo", "Provas (fotos, comprovantes)"]},
+      {"id": "R2", "texto": "Se a defesa for negada, recorrer à JARI sem precisar pagar a multa antes", "lei": "CTB", "artigo": "arts. 285 e 286", "duracao_min": 60, "impacto": 6, "prazo": null, "documentos": ["Notificação da penalidade", "Cópia da defesa prévia"]}
+    ]
+  },
+  "servicos_publicos": {
+    "nome": "Serviços públicos e acesso à justiça",
+    "palavras": {"prefeitura": 2, "orgao": 2, "publico": 2, "ouvidoria": 3, "documento": 1, "certidao": 2, "informacao": 2, "protocolo": 1, "justica": 2, "processo": 2, "advogado": 2, "juizado": 3, "defensoria": 3, "fila": 1},
+    "orgaos": ["ouvidoria_municipal", "defensoria", "juizado_civel"],
+    "acoes": [
+      {"id": "G1", "texto": "Registrar manifestação na ouvidoria do órgão (direito do usuário de serviço público)", "lei": "L13460", "artigo": "art. 10", "duracao_min": 30, "impacto": 6, "prazo": null, "documentos": ["Número de protocolo do atendimento"]},
+      {"id": "G2", "texto": "Fazer pedido de acesso à informação (resposta em até 20 dias)", "lei": "L12527", "artigo": "art. 11, § 1º", "duracao_min": 30, "impacto": 5, "prazo": null, "documentos": ["Documento com foto"]},
+      {"id": "G3", "texto": "Pedir gratuidade da justiça se não pode pagar custas", "lei": "CPC", "artigo": "art. 98", "duracao_min": 60, "impacto": 7, "prazo": null, "documentos": ["Comprovantes de renda", "Declaração de hipossuficiência"]}
+    ]
+  }
+}
