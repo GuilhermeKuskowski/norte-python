@@ -20,7 +20,7 @@ Disciplina: **Dynamic Programming** · Equipe **Acesstech** · Turma **2ESPI**
 | Como funciona | A pessoa conta o problema com as próprias palavras, a triagem identifica uma das 10 áreas da vida e o Norte devolve um plano de ação com leis vigentes, prazos com semáforo, documentos e o atendimento gratuito certo |
 | O que cada parte faz | Agile: design da solução · Database: banco de dados · Java: API REST · **Dynamic Programming: algoritmos (este repositório)** · Data Science: previsões · Network: rede do ponto de atendimento · AR-VR: vídeo 3D |
 | Base de leis | Repositório aberto [ctresb/leis](https://github.com/ctresb/leis) (licença MIT) |
-| Link do repositório | [link do GitHub do projeto] |
+| Link do repositório | https://github.com/GuilhermeKuskowski/norte-python |
 | Indicador de impacto | Pessoas orientadas por área e % que procurou atendimento depois do relatório |
 | ODS conectados | 1, 3, 5, 8, 10 e 16 |
 
