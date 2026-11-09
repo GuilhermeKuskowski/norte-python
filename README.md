@@ -14,7 +14,7 @@ Disciplina: **Dynamic Programming** · Equipe **Acesstech** · Turma **2ESPI**
 | Campo | Preenchimento |
 |---|---|
 | Nome da CitizenTech | **Norte** – orientação de direitos para o cidadão |
-| Cidade e bairro | [cidade – bairro/comunidade do piloto] |
+| Cidade e bairro | São Paulo (SP) – Brasilândia, Zona Norte |
 | Cidadão beneficiado | Qualquer cidadão com dúvida sobre direitos do dia a dia, com prioridade para pessoas de baixa renda, idosos e pessoas com deficiência |
 | Problema, em uma frase | Cidadãos não entendem quais direitos têm nem o que fazer quando eles são desrespeitados, e por isso perdem dinheiro, benefícios e prazos |
 | Como funciona | A pessoa conta o problema com as próprias palavras, a triagem identifica uma das 10 áreas da vida e o Norte devolve um plano de ação com leis vigentes, prazos com semáforo, documentos e o atendimento gratuito certo |
