@@ -241,7 +241,6 @@ Casos disponíveis em `--caso`: `marcia`, `jose`, `juliana`, `rafael`, `ana_paul
 ```
 norte-dp/
 ├── README.md                    este arquivo
-├── prompts.md                   registro do uso de IA (regra da GS)
 ├── main.py                      menu interativo, --demo e --caso
 ├── norte/
 │   ├── triagem.py               MEMOIZAÇÃO: distância de edição e classificação do relato
